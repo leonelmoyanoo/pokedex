@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Primary module of Pokedex API.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function pokedex_theme()
+{
+  return [
+    'pokedex' => [
+      'variables' => [
+        'pokemon' => NULL,
+      ],
+      'render element' => 'page',
+    ]
+  ];
+}

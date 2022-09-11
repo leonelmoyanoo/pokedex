@@ -1,0 +1,7 @@
+pokedex.pokedex:
+  path: '/pokedex'
+  defaults:
+    _form: '\Drupal\pokedex\Form\GetPokemon'
+    _title: 'Choose your pokemon'
+  requirements:
+    _permission: 'access content'

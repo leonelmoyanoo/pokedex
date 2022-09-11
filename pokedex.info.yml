@@ -1,0 +1,6 @@
+name: Pokedex Module
+type: module
+description: 'Collect some Pokemons.'
+package: Custom
+version: 1.0
+core_version_requirement: ^8 || ^9

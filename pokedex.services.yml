@@ -1,0 +1,4 @@
+services:
+  pokedex.pokedexService:
+    class: Drupal\pokedex\Service\pokedexService
+    arguments: ['@http_client_factory','@cache.default','@language_manager']

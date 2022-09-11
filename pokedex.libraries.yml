@@ -1,0 +1,5 @@
+pokemon_card:
+  version: 1.x
+  css:
+    component:
+      css/pokemon_card.css: {}

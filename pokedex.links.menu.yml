@@ -1,0 +1,6 @@
+pokedex.pokedex_index:
+  title: 'Pokedex'
+  parent: system.menu.main
+  menu_name: main
+  description: 'Put your birthday and get your pokemon'
+  route_name: pokedex.pokedex
